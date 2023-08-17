@@ -1,1 +1,1 @@
-iSoft Store Client.
+iSoft Store Client
