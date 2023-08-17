@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+html,
+body,
+#__next {
+  height: 100%;
+  scrollbar-gutter: stable;
+}
+
+.product-slider-container .slick-dots {
+  position: static;
+  bottom: unset;
+  padding-top: 15px;
+}
+
+.product-slider-container .slick-dots li button:before {
+  color: #4f4f4f;
+}
+
+.product-slider-container .slick-dots li.slick-active button:before {
+  color: #2b2b2b;
+}
+
+.slick-dots {
+  background-color: transparent;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10%;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+  color: #bdbdbd;
+  opacity: 0.4;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #e1e8eb;
+}
+
+.slick-next {
+  right: -20px;
+}
+
+.slick-prev {
+  left: -30px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000;
+  font-size: 30px;
+}
+
+.slick-next:hover:before,
+.slick-prev:hover:before {
+  opacity: 0.5;
+}
+
+.slick-slide {
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .slick-dots li button:before {
+    font-size: 10px;
+  }
+
+  .slick-dots li {
+    margin: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .slick-list {
+    margin-left: -15px;
+  }
+}
