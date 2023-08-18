@@ -45,7 +45,7 @@ export const BreadCrumbs: FC = () => {
               className={clsx(
                 'sm:text-quot font-medium capitalize',
                 router.asPath?.includes(segment)
-                  ? 'text-darkGray-100'
+                  ? 'text-darkGray-100 pointer-events-none'
                   : 'text-darkSkyBlue-60',
               )}
               href={'/' + filteredSegments.slice(0, index + 1).join('')}

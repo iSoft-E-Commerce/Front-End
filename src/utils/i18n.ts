@@ -14,6 +14,8 @@ i18n.use(initReactI18next).init({
         'exchange-return': 'Exchange return',
         contacts: 'Contacts',
         compare: 'Compare',
+        'new-products': 'New',
+        'discount-products': 'Discount',
       },
     },
     ua: {
@@ -27,6 +29,8 @@ i18n.use(initReactI18next).init({
         'exchange-return': 'Обмін & Повернення',
         contacts: 'Контакти',
         compare: 'Порівняння',
+        'new-products': 'Новинки',
+        'discount-products': 'Знижки',
       },
     },
   },
