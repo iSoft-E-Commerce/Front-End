@@ -1,5 +1,2 @@
-[[build]]
-  functions = "functions"
-
-    [build.functions]
-        timeout = 30
+[functions]
+  timeout = 30
